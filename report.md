@@ -1,17 +1,17 @@
 # Project report
 ### Learning algorithm
 
-The learning algorithm used is DDPG (Deep Deterministic Policy Gradient) as described in the [paper](https://arxiv.org/abs/1509.02971). It is a kind of actor-critic method but it can be also considered as an approximated [DQN](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) method. 
+* The learning algorithm used is DDPG (Deep Deterministic Policy Gradient) as described in the [paper](https://arxiv.org/abs/1509.02971). It is a kind of actor-critic method but it can be also considered as an approximated [DQN](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) method. 
 
-The DDPG agorithm is explained in the udacity [lecture](https://www.youtube.com/watch?v=0NVOPIyrr98) by Miguel Morales:
+* The DDPG agorithm is explained in the udacity [lecture](https://www.youtube.com/watch?v=0NVOPIyrr98) by Miguel Morales:
 
-In DDPG, we use two deep neural networks: actor and critic. The actor is used to approximate optimal policy deterministically. The critic learns to evaluate the optimal action value function by using the actor's best believed action. 
+	* In DDPG, we use two deep neural networks: actor and critic. The actor is used to approximate optimal policy deterministically. The critic learns to evaluate the optimal action value function by using the actor's best believed action. 
 
-We use a regular (or local) and target networks for both the actor and ctitic networks. The regular networks are the most up to date networks that we are training. While target networks are used for prediction to stabilize training.
+	* We use a regular (or local) and target networks for both the actor and ctitic networks. The regular networks are the most up to date networks that we are training. While target networks are used for prediction to stabilize training.
 
-We also use replay buffer to save the state, action, reward, next state, done tuples and soft update to mix a small percentage of the regular or local networks parameters with the target networks parameters. Also a random noise is added with action value of the actor networks for facilitating the exploration.
+	* We also use replay buffer to save the state, action, reward, next state, done tuples and soft update to mix a small percentage of the regular or local networks parameters with the target networks parameters. Also a random noise is added with action value of the actor networks for facilitating the exploration.
 
-The pseudo-code of DDPG is given in the figure below from the [paper](https://arxiv.org/abs/1509.02971):
+* The pseudo-code of DDPG is given in the figure below from the [paper](https://arxiv.org/abs/1509.02971):
 ![DDPG Algorithm](images/ddpg_algo.png) 
 
 
