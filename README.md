@@ -27,7 +27,7 @@ PC configuration used for this project:
 * Graphics: Intel HD Graphics 5000 1536MB
 
 ### Environment setup
-For detailed Python environment setup (PyTorch, Unity Environment, and a few more Python packages) please follow these steps: [link](https://github.com/udacity/deep-reinforcement-learning#dependencies) 
+For detailed Python environment setup (PyTorch, Unity Environment, and a few more Python packages) please follow these [steps](https://github.com/udacity/deep-reinforcement-learning#dependencies): 
 
 ### Structure
 All project files are structed as follows:
