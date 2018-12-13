@@ -173,6 +173,6 @@ Green circles represent the target locations and all the agents are able to foll
 ### Ideas for future work
 1. Solve the single agent version of the Reacher [envirorment](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip)
 1. Apply other algorithms in our multiple agent version 
-	1. Proximal Policy Optimization Algorithms [PPO](https://arxiv.org/pdf/1707.06347.pdf)
-	1. Asynchronous Methods for Deep Reinforcement Learning [A3C](https://arxiv.org/pdf/1602.01783.pdf)
-	1. DISTRIBUTED DISTRIBUTIONAL DETERMINISTIC POLICY GRADIENTS [D4PG](https://openreview.net/pdf?id=SyZipzbCb)
+	1. Proximal Policy Optimization Algorithms ([PPO](https://arxiv.org/pdf/1707.06347.pdf))
+	1. Asynchronous Methods for Deep Reinforcement Learning ([A3C](https://arxiv.org/pdf/1602.01783.pdf))
+	1. Distributed Distributional Deterministic Policy Gradients ([D4PG](https://openreview.net/pdf?id=SyZipzbCb))
