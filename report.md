@@ -16,7 +16,7 @@
 
 
 
-### Parameters used in DQN algorithm:
+### Parameters used in DDPG algorithm:
 
 * minibatch size(BATCH_SIZE) = 1024         
 * replay buffer size(BUFFER_SIZE) = int(1e6)  
