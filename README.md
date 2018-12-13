@@ -1,4 +1,4 @@
-# Contiuous Control
+# Continuous Control
 Deep Reinforcement Learning Nanodegree Project 2
 
 ![Unity Reacher Continuous Control](images/reacher_continuous.gif)
@@ -14,7 +14,7 @@ For this project, the task is to train 20 identical agents in Reacher Unity envi
 
 * Solution criteria: the environment is considered as solved when the agents get an average score of +30 (over 100 consecutive episodes, and over all agents). Specifically,
 
-* 1- After each episode, we add up the rewards that each agent received (without discounting), to get a score for each agent. This yields 20 (potentially different) scores. We then take the average of these 20 scores.
-* 2- This yields an average score for each episode (where the average is over all 20 agents).
+	* After each episode, we add up the rewards that each agent received (without discounting), to get a score for each agent. This yields 20 (potentially different) scores. We then take the average of these 20 scores.
+	* This yields an average score for each episode (where the average is over all 20 agents).
 
 
