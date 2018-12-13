@@ -1,4 +1,4 @@
-# Continuous Control
+# Continuous Control in Reacher Environment
 Deep Reinforcement Learning Nanodegree Project 2
 
 ![Unity Reacher Continuous Control](images/reacher_continuous.gif)
