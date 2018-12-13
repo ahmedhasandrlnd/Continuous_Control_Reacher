@@ -4,7 +4,7 @@ Deep Reinforcement Learning Nanodegree Project 2
 ![Unity Reacher Continuous Control](images/reacher_continuous.gif)
 
 ## Project description
-For this project, the task is to train 20 identical agents in Reacher Unity environment. Each agent has a double-joined arm that can move to target locations.
+For this project, the task is to train 20 identical agents interacting within Reacher Unity environment. Each agent has a double-joined arm that can move to target locations.
 
 * Goal: A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible..
 
