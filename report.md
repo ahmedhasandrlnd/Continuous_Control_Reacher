@@ -165,8 +165,10 @@ Problem Solved after 100 epsisodes!! Total Average score: 31.09
 ```
 
 
-### Trained Agent
+### Trained Agents
 ![Unity Reacher Continuous Control](images/reacher_continuous.gif)
+
+Green circles represent the target locations and all the agents are able to follow those target locations most of the time.
 
 ### Ideas for future work
 
