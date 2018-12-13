@@ -12,7 +12,7 @@ We use a regular (or local) and target networks for both the actor and ctitic ne
 We also use replay buffer to save the state, action, reward, next state, done tuples and soft update to mix a small percentage of the regular or local networks parameters with the target networks parameters. Also a random noise is added with action value of the actor networks for facilitating the exploration.
 
 The pseudo-code of DDPG is given in the figure below from the [paper](https://arxiv.org/abs/1509.02971):
-![DQN Algorithm](images/ddgp_algo.png) 
+![DDPG Algorithm](images/ddpg_algo.png) 
 
 
 
