@@ -1,7 +1,7 @@
 # Project report
 ### Learning algorithm
 
-The learning algorithm used is DDPG (Deep Deterministic Policy Gradient) as described in the [paper](hhttps://arxiv.org/abs/1509.02971). It is a kind of actor-critic method but it can be also considered as an approximated [DQN](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) method. 
+The learning algorithm used is DDPG (Deep Deterministic Policy Gradient) as described in the [paper](https://arxiv.org/abs/1509.02971). It is a kind of actor-critic method but it can be also considered as an approximated [DQN](https://storage.googleapis.com/deepmind-media/dqn/DQNNaturePaper.pdf) method. 
 
 The DDPG agorithm is explained in the udacity [lecture](https://www.youtube.com/watch?v=0NVOPIyrr98) by Miguel Morales:
 
@@ -11,7 +11,7 @@ We use a regular (or local) and target networks for both the actor and ctitic ne
 
 We also use replay buffer to save the state, action, reward, next state, done tuples and soft update to mix a small percentage of the regular or local networks parameters with the target networks parameters. Also a random noise is added with action value of the actor networks for facilitating the exploration.
 
-The pseudo-code of DDPG is given in the figure below from the [paper](hhttps://arxiv.org/abs/1509.02971):
+The pseudo-code of DDPG is given in the figure below from the [paper](https://arxiv.org/abs/1509.02971):
 ![DQN Algorithm](images/dqn_algorithm.png) 
 
 
