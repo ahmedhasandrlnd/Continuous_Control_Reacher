@@ -6,7 +6,7 @@ Deep Reinforcement Learning Nanodegree Project 2
 ## Project description
 For this project, the task is to train 20 identical agents interacting within Reacher Unity environment. Each agent has a double-joined arm that can move to target locations.
 
-* Goal: A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible..
+* Goal: A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of an agent is to maintain its position at the target location for as many time steps as possible..
 
 * The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm.
 
