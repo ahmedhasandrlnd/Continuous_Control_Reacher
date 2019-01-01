@@ -30,7 +30,7 @@ PC configuration used for this project:
 For detailed Python environment setup (PyTorch, Unity Environment, and a few more Python packages) please follow these [steps](https://github.com/udacity/deep-reinforcement-learning#dependencies): 
 
 ### Structure
-All project files are structed as follows:
+All project files are structured as follows:
 
 * ddpg_agent.py - It contains agent, noise and replay buffer class implementation. agent class interacts with and learns from the environment. replay buffer class has a fixed-size buffer to store experience tuples. noise class is used to explore the environment more.
 * model.py - It contains the neural network architecture for the actor and critic networks.
